@@ -1,27 +1,25 @@
 # DirSearchPro
 
-DirSearchPro is a Python script that helps you scan a given URL for directories and display the results using colored output. It's a useful tool for web exploration, analysis, and vulnerability assessment.
+DirSearchPro is a Python tool designed to simplify web directory scanning. It quickly identifies and displays directories within a target URL, with color-coded response codes for easy analysis. Whether you're exploring websites or conducting vulnerability assessments, DirSearchPro helps you uncover hidden paths and understand site structures effortlessly.
+
+## Disclaimer
+
+DirSearchPro is created solely for educational and ethical purposes. The tool's primary objective is to assist users in understanding web directory structures and practicing responsible website exploration. It is not intended for any malicious or unauthorized use.
 
 ## Features
 
-- Scans a target URL for directories and displays them with color-coded information.
-- Provides response codes for each URL, highlighting 200 responses in green, non-reachable responses in red, and other responses in their respective colors.
-- Enhances the scanning experience by presenting tool and creator names in stylish colors.
-- Helps you identify hidden directories and analyze website structures quickly.
+- Scans target URLs for directories and presents results with response codes in vibrant colors.
+- Highlights 200 responses in green, unreachable responses in red, and other responses in their respective colors.
+- Adds a touch of style by colorizing the tool and creator names in the output.
+- A valuable asset for identifying hidden parameters and structuring websites effectively.
 
 ## Usage
 
-1. Make sure you have Python 3.x installed.
-2. Install the required dependencies using `pip install requests bs4 colorama`.
-3. Run the script in your terminal by entering `python url.py`.
-4. Enter the URL you want to scan for directories.
-5. The script will display a color-enhanced report of the scanning process, indicating reachable directories and their response codes.
-
-## Dependencies
-
-- [requests](https://pypi.org/project/requests/): For sending HTTP requests and fetching response codes.
-- [beautifulsoup4](https://pypi.org/project/beautifulsoup4/): For parsing HTML content and extracting URLs.
-- [colorama](https://pypi.org/project/colorama/): For colorizing terminal output.
+1. Ensure Python 3.x is installed.
+2. Install required dependencies with `pip install requests bs4 colorama`.
+3. Run the script using `python DirSearchPro.py`.
+4. Input the URL to scan for directories.
+5. Enjoy the color-enhanced report, detailing reachable directories and their response codes.
 
 ## Author
 
@@ -33,4 +31,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to contribute, open issues, and provide feedback. Happy directory scanning with DirSearchPro!
+Contribute, report issues, and enhance your directory scanning experience with DirSearchPro!
