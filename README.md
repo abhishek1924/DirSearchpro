@@ -17,9 +17,10 @@ DirSearchPro is created solely for educational and ethical purposes. The tool's 
 
 1. Ensure Python 3.x is installed.
 2. Install required dependencies with `pip install requests bs4 colorama`.
-3. Run the script using `python DirSearchPro.py`.
-4. Input the URL to scan for directories.
-5. Enjoy the color-enhanced report, detailing reachable directories and their response codes.
+3. Download DirSearchPro `git clone https://github.com/abhishek1924/DirSearchpro.git`
+4. Run the script using `python DirSearchPro.py`.
+5. Input the URL to scan for directories.
+6. Enjoy the color-enhanced report, detailing reachable directories and their response codes.
 
 ## Author
 
