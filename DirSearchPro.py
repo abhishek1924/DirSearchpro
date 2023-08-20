@@ -26,6 +26,10 @@ def find_all_directories(url):
 
             visited.add(current_url)
 
+            if not current_url.startswith('http://') and not current_url.startswith('https://'):
+                print(f"Skipping URL: {current_url} (Not an HTTP/HTTPS URL)")
+                continue
+
             response = requests.get(current_url)
             response_code = response.status_code
 
@@ -63,6 +67,7 @@ if __name__ == "__main__":
     display_disclaimer()
 
     target_url = input(f"{Fore.YELLOW}Enter the URL to search for directories: {Style.RESET_ALL}")
+
     found_directories = find_all_directories(target_url)
 
     if found_directories:
